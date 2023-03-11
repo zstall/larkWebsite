@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/master.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top)-->
+<div id="nav-placeholder"></div>
+<!--
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
+     
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+-->
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px; text-align: center;" id="home">
+  <img class="w3-image w3-opacity-min" src="/media/Home_page_main_1.jpeg" alt="Lark Mental Health Mountain Scene" width="1600" height="500">
+  <div class="w3-display-bottomleft w3-padding-large ">
+    <h1 class="w3-xxlarge" style="color:white">Challenging the Inner Critic</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/media/Logo_example.jpg" class="w3-round w3-image w3-opacity-min" alt="Lark Logo" width="750" height="850">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">A weekend for connection and emotional awareness.</h1><br>
+      <h5 class="w3-center">September 8th-10th in Evergreen, Colorado</h5>
+      <p class="w3-large">Join us for an all inclusive licensed therapist led weekend retreat focused on individual and group work to reduce your anxiety for the weekend and hopefully for months to come. While there will be therapeutic work there will also be yoga, meditation, jacuzzi and fun to allow for balance. This all inclusive retreat allows you to put away the worries of cooking or planning and focus on you!</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l5 w3-padding-large">
+      
+      <h4>Mindfulness</h4>
+      <p class="w3-text-grey">Examination of the different parts of self, which include the inner critic and other emotional states</p><br>
+    
+      <h4>Anxiety and Stress Reduction</h4>
+      <p class="w3-text-grey">Innovative and creative ideas for dealing with anxiety and stress</p><br>
+    
+      <h4>Connections</h4>
+      <p class="w3-text-grey">Group connection and thoughtful discussion and one individual session with a therapist for each participant</p><br>
+    
+      <h4>Expertise</h4>
+      <p class="w3-text-grey">Psychiatric nurse practitioner group on supplements, medications and the latest on ketamine</p><br>
+
+      <h4>Relaxation</h4>
+      <p class="w3-text-grey">Yoga, Guided meditation, Time for reflection and journaling, Private jacuzzi on property, Reiki session (additional cost), and Tarot card readings (optional) </p><br>
+    
+      <h4>Wonderful Amenities</h4>
+      <p class="w3-text-grey">Private property all to ourselves where each attendee has their own private locking bedroom and bathroom in a bed and breakfast style home with all meals included.</p>    
+    </div>
+    
+    <div class="w3-col l7 w3-padding-large">
+      <img src="/media/Home_page_3_cropped.jpeg" class="w3-round w3-image w3-opacity-min" alt="Women Meditating" style="height:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="div-with-bg">
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <form action="mailto:zstall4@gmail.com" method="post" enctype="text/plain">
+      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section w3-light-grey" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+  <!--JQuery, Popper.js, Booststrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Custom JavaScript -->
+  <script type="text/javascript" src="js/master.js"></script>
+  <!-- function that gathers nav & footer bars -->
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("pages/nav.html");
+    });
+  </script>
+</html>
