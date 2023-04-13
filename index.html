@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Lark</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="css/master.css">
 <style>
@@ -19,23 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Navbar (sit on top)-->
 <div id="nav-placeholder"></div>
-<!--
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
-     
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
-</div>
--->
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px; text-align: center;" id="home">
-  <img class="w3-image w3-opacity-min" src="/media/Home_page_main_1.jpeg" alt="Lark Mental Health Mountain Scene" width="1600" height="500">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:200px; text-align: center;" id="home">
+  <img class="w3-image w3-opacity-min" src="/media/Home_page_main_1.jpeg" alt="Lark Mental Health Mountain Scene" height="100%">
   <div class="w3-display-bottomleft w3-padding-large ">
     <h1 class="w3-xxlarge" style="color:white">Challenging the Inner Critic</h1>
   </div>
@@ -43,10 +33,14 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
-
+  <!-- About Location Section -->
+  <div class="w3-container w3-padding-16 w3-border-bottom w3-border-light-grey" id="retreat details">
+    <p>Challenging the inner critic description... This retreat will be held in a beautiful and unique bed and breakfast turned Airbnb. With two stories, each of the 11 rooms have unique and fun themes with private bathrooms for everyone.
+        Your hosts will stay on the property in a detached cabin.</p> 
+</div>
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    <div class="w3-col m6 w3-padding-large">
      <img src="/media/Logo_example.jpg" class="w3-round w3-image w3-opacity-min" alt="Lark Logo" width="750" height="850">
     </div>
 
@@ -83,33 +77,22 @@ h1, h2, h3, h4, h5, h6 {
     </div>
     
     <div class="w3-col l7 w3-padding-large">
-      <img src="/media/Home_page_3_cropped.jpeg" class="w3-round w3-image w3-opacity-min" alt="Women Meditating" style="height:100%">
+      <img src="/media/Home_page_3_cropped.jpeg" class="w3-round w3-image w3-opacity-min" alt="Women Meditating" style="width:100%">
     </div>
   </div>
 
   <hr>
 
-  <!-- Contact Section -->
-  <div class="div-with-bg">
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
-    <form action="mailto:zstall4@gmail.com" method="post" enctype="text/plain">
-      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-light-grey w3-opacity-min" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-section w3-light-grey" type="submit">SEND MESSAGE</button></p>
-    </form>
-  </div>
-  </div>
-  
+
+<!-- contact form -->
+<!--<div id="message-placeholder"></div>-->
+
+
 <!-- End page content -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
+<div id="foot-placeholder"></div>
 
 </body>
   <!--JQuery, Popper.js, Booststrap JS -->
@@ -122,6 +105,8 @@ h1, h2, h3, h4, h5, h6 {
   <script>
     $(function(){
       $("#nav-placeholder").load("pages/nav.html");
+      $("#message-placeholder").load("pages/message.html");
+      $("#foot-placeholder").load("pages/foot.html");
     });
   </script>
 </html>

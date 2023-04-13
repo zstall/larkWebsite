@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/master.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top)-->
+<div id="nav-placeholder"></div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:300px; text-align: center;" id="home">
+  <img class="w3-image w3-opacity-min" src="/media/location_header_cropped.jpeg" alt="Lark Mental Health Mountain Scene" width="1600" height="500">
+  <div class="w3-display-bottomleft w3-padding-large ">
+    <h1 class="w3-xxlarge" style="color:white">Location</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Location Section -->
+  <div class="w3-container w3-padding-16" id="retreat details">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h3>
+    <p>This retreat will be held in a beautiful and unique bed and breakfast turned Airbnb. With two stories, each of the 11 rooms have unique and fun themes with private bathrooms for everyone.
+        Your hosts will stay on the property in a detached cabin.</p> 
+    <p>The property boasts a beautiful large deck perfect for reflection, yoga, relaxation or a nap.
+        In the back is a private jacuzzi and plenty of space for people to spread out or come together!</p>
+    <p>Weather dependent, we will either gather in the living space or outside for groups.</p>
+</div>
+  
+  <hr>
+  
+  <!-- Project Section -->
+  <div class="w3-row-padding w3-padding-64" id="house_images">
+    <div class="w3-col 26 m7 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">House</div>
+        <img src="media/location_1.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-col 8 m5 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Outside</div>
+        <img src="media/location_2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col 8 m5 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Jacuzzi</div>
+        <img src="media/location_4_cropped.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col 26 m7 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Bedroom</div>
+        <img src="media/location_3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- contact form -->
+  <div id="message-placeholder"></div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+  <!--JQuery, Popper.js, Booststrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Custom JavaScript -->
+  <script type="text/javascript" src="js/master.js"></script>
+  <!-- function that gathers nav & footer bars -->
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("pages/nav.html");
+    });
+  </script>
+</html>
