@@ -5,3 +5,55 @@
     background-position-y: -50px;
 }
 
+/* Using panels to display blog date */
+.panel.date {
+    margin: 0px;
+    width: 60px;
+    text-align: center;
+}
+
+.panel.date .month {
+    padding: 2px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.panel.date .day {
+    padding: 3px 0px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.uk-timeline .uk-timeline-item .uk-card {
+	max-height: 300px;
+}
+
+.uk-timeline .uk-timeline-item {
+    display: flex;
+    position: relative;
+}
+
+.uk-timeline .uk-timeline-item::before {
+    background: #dadee4;
+    content: "";
+    height: 0%;
+    left: 19px;
+    position: absolute;
+    top: 20px;
+    width: 2px;
+		z-index: -1;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
+	margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.uk-timeline .uk-timeline-item .uk-timeline-content {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 0 0 1rem;
+}
+
+
