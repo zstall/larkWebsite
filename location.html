@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>LMH Retreat</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:300px; text-align: center;" id="home">
-  <img class="w3-image w3-opacity-min" src="/media/location_header_cropped.jpeg" alt="Lark Mental Health Mountain Scene" width="1600" height="500">
+  <img class="w3-image w3-opacity-min" src="/media/Treez_cropped.jpg" alt="Lark Mental Health Mountain Scene" width="1600" height="500">
   <div class="w3-display-bottomleft w3-padding-large ">
     <h1 class="w3-xxlarge" style="color:white">Location</h1>
   </div>
@@ -35,14 +35,14 @@ h1, h2, h3, h4, h5, h6 {
 <div class="w3-content" style="max-width:1100px">
 
   <!-- About Location Section -->
-  <div class="w3-container w3-padding-16" id="retreat details">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h3>
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-64">Welcome to Evergreen</h3>
     <p>This retreat will be held in a beautiful and unique bed and breakfast turned Airbnb. With two stories, each of the 11 rooms have unique and fun themes with private bathrooms for everyone.
-        Your hosts will stay on the property in a detached cabin.</p> 
+      Your hosts will stay on the property in a detached cabin.</p> 
     <p>The property boasts a beautiful large deck perfect for reflection, yoga, relaxation or a nap.
-        In the back is a private jacuzzi and plenty of space for people to spread out or come together!</p>
+      In the back is a private jacuzzi and plenty of space for people to spread out or come together!</p>
     <p>Weather dependent, we will either gather in the living space or outside for groups.</p>
-</div>
+  </div>
   
   <hr>
   
@@ -86,21 +86,28 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
+<div id="foot-placeholder"></div>
+
 
 </body>
-  <!--JQuery, Popper.js, Booststrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <!-- Custom JavaScript -->
-  <script type="text/javascript" src="js/master.js"></script>
-  <!-- function that gathers nav & footer bars -->
-  <script>
-    $(function(){
-      $("#nav-placeholder").load("pages/nav.html");
-    });
-  </script>
-</html>
+   <!--JQuery, Popper.js, Booststrap JS -->
+   <script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <!-- Custom JavaScript -->
+   <script type="text/javascript" src="js/master.js"></script>
+   <!-- function that gathers nav & footer bars -->
+   <script>
+     $(function(){
+       $("#nav-placeholder").load("pages/nav.html");
+       $("#message-placeholder").load("pages/message.html");
+       $("#foot-placeholder").load("pages/foot.html");
+     });
+   </script>
+ </html>
+ 
