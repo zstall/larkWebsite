@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
   letter-spacing: 5px;
 }
+p {
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+}
 </style>
 </head>
 <body>
@@ -29,10 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:300px; text-align: left;  margin-top:100px;" id="details">
-  <img class="w3-image w3-opacity-min" src="/media/details_page_header_cropped.jpeg" alt="Clip Board with a blue background" height="100%">
+  <img class="w3-image w3-opacity-min" src="/media/details_page_header_cropped_1.jpeg" alt="Clip Board with a blue background" height="100%">
   <div class="w3-display-topleft w3-padding-large ">
     <h1 class="w3-xxlarge" style="color:darkslategrey">Retreat Details</h1>
-    <h3 class="w3-large" style="color:darkslategrey">Your self investment includes:</h3>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <div class="w3-padding-32">
+    <h3 class="w3-xlarge" style="color:darkslategrey">Your self investment includes:</h3>
     <ul style="list-style-type:none; color:darkslategrey">
       <li><p>One Individual Session Per Person With a Licensed Therapist</p></li>
       <li><p>Guided Yoga and Meditation</p></li>
@@ -46,17 +57,13 @@ h1, h2, h3, h4, h5, h6 {
       <li><p>Individual Reiki Sessions are Available for Additional Cost of $80 (Limited)</p></li>
     </ul>
     <p></p>
-    <h3 class="w3-large" style="color:darkslategrey">Total investment $1200</h3>
+    <h3 class="w3-xlarge" style="color:darkslategrey; margin-top:40px;">Total investment $1200</h3>
   </div>
-</header>
-
-<!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
-
+  <hr>
   <!-- Cost and Policies -->
   <div class="w3-row w3-padding-32" id="cost-n-policies">
-    <div class="w3-col m5 w3-padding-large w3-hide-small">
-     <img src="/media/Details 2.jpg" class="w3-round w3-image w3-opacity-min" alt="Menatl Health in spelled out with blocks"  width="100%">
+    <div class="w3-col m5 w3-padding-large ">
+     <img src="/media/Details 2.jpg" class="w3-round w3-image w3-opacity-min" alt="Mental Health in spelled out with blocks"  width="100%">
     </div>
     
     <div class="w3-col m7 w3-padding-large" style="margin-top:25px;">
@@ -69,9 +76,9 @@ h1, h2, h3, h4, h5, h6 {
   </div>
   <hr>
 
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-padding-64">Daily Schedule</h3>
-    <p>Day to day scheduling is tentative and may be subject to slight variations</p>
+  <div class="w3-container" id="about">
+    <h3 class="w3-xxlarge">Daily Schedule</h3>
+    <p class="w3-medium w3-opacity">Day to day scheduling is tentative and may be subject to slight variations</p>
   </div>
 
     <div class="uk-container uk-padding ">
@@ -84,17 +91,17 @@ h1, h2, h3, h4, h5, h6 {
                     <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                <h3 class="uk-card-title uk-text-success"><time datetime="2023-09-08">Sept 8th</time></h3>
-                                <span class="uk-label uk-label-success uk-margin-auto-left">Friday Day One</span>
+                                <h3 class="uk-card-title uk-text-success w3-large"><time datetime="2023-09-08">Sept 8th</time></h3>
+                                <span class="uk-label uk-label-success uk-margin-auto-left w3-large">Friday Day One</span>
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <p class="uk-text-success">4-430pm - Arrive</p>
-                            <p class="uk-text-success">5-7pm   - Introductory group with snacks and refreshments</p>
-                            <p class="uk-text-success">7-8pm   - Dinner</p>
-                            <p class="uk-text-success">8-9pm   - Your choice of Jacuzzi, relaxation, downtime, etc.</p>
-                            <p class="uk-text-success">9-930pm - Guided evening meditation with emotional regulation tip</p>
-                            <p class="uk-text-success">930pm   - Bedtime and wind down, quiet hours after 10pm</p>
+                            <p class="uk-text-success w3-large">4-430pm - Arrive</p>
+                            <p class="uk-text-success w3-large">5-7pm   - Introductory group with snacks and refreshments</p>
+                            <p class="uk-text-success w3-large">7-8pm   - Dinner</p>
+                            <p class="uk-text-success w3-large">8-9pm   - Your choice of Jacuzzi, relaxation, downtime, etc.</p>
+                            <p class="uk-text-success w3-large">9-930pm - Guided evening meditation with emotional regulation tip</p>
+                            <p class="uk-text-success w3-large">930pm   - Bedtime and wind down, quiet hours after 10pm</p>
                         </div>
                     </div>
                 </div>
@@ -107,24 +114,24 @@ h1, h2, h3, h4, h5, h6 {
                     <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                <h3 class="uk-card-title uk-text-success"><time datetime="2023-09-09">Sept 9th</time></h3>
-                                <span class="uk-label uk-label-success uk-margin-auto-left">Saturday Day Two</span>
+                                <h3 class="uk-card-title uk-text-success w3-large"><time datetime="2023-09-09">Sept 9th</time></h3>
+                                <span class="uk-label uk-label-success uk-margin-auto-left w3-large">Saturday Day Two</span>
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <p class="uk-text-success">7-9am       - Breakfast, jacuzzi, coffee on deck (particpants choice)</p>
-                            <p class="uk-text-success">9-945am     - Yoga (optional)</p>
-                            <p class="uk-text-success">1015-1115am - Morning group: Deeper dive into anxiety, inner critic and parts of self as well as more emotion regulation tips with journaling prompt to be written about during the day</p>
-                            <p class="uk-text-success">1130-1230pm - Time for individual sessions #1 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
-                            <p class="uk-text-success">1215-1pm    - Lunch</p>
-                            <p class="uk-text-success">1-2pm       - Time for individual sessions #2 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
-                            <p class="uk-text-success">2-3pm       - Time for individual sessions #3 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
-                            <p class="uk-text-success">3-4pm       - Art processing group to delve deeper into the parts of self</p>
-                            <p class="uk-text-success">430-530pm   - Time for individual sessions #4 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
-                            <p class="uk-text-success">6-7pm       - Dinner</p>
-                            <p class="uk-text-success">730-9pm     - Candle Light burning ceremony</p>
-                            <p class="uk-text-success">9-930pm     - Guided evening meditation</p>
-                            <p class="uk-text-success">930pm       - Bedtime</p>
+                            <p class="uk-text-success w3-large">7-9am       - Breakfast, jacuzzi, coffee on deck (particpants choice)</p>
+                            <p class="uk-text-success w3-large">9-945am     - Yoga (optional)</p>
+                            <p class="uk-text-success w3-large">1015-1115am - Morning group: Deeper dive into anxiety, inner critic and parts of self as well as more emotion regulation tips with journaling prompt to be written about during the day</p>
+                            <p class="uk-text-success w3-large">1130-1230pm - Time for individual sessions #1 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
+                            <p class="uk-text-success w3-large">1215-1pm    - Lunch</p>
+                            <p class="uk-text-success w3-large">1-2pm       - Time for individual sessions #2 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
+                            <p class="uk-text-success w3-large">2-3pm       - Time for individual sessions #3 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
+                            <p class="uk-text-success w3-large">3-4pm       - Art processing group to delve deeper into the parts of self</p>
+                            <p class="uk-text-success w3-large">430-530pm   - Time for individual sessions #4 (therapy, reiki, etc) or self guided relaxation/reflection for those who are not in a session</p>
+                            <p class="uk-text-success w3-large">6-7pm       - Dinner</p>
+                            <p class="uk-text-success w3-large">730-9pm     - Candle Light burning ceremony</p>
+                            <p class="uk-text-success w3-large">9-930pm     - Guided evening meditation</p>
+                            <p class="uk-text-success w3-large">930pm       - Bedtime</p>
                         </div>
                     </div>
                 </div>
@@ -137,16 +144,16 @@ h1, h2, h3, h4, h5, h6 {
                     <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                <h3 class="uk-card-title uk-text-success"><time datetime="2023-09-10">Sept 10th</time></h3>
-                                <span class="uk-label uk-label-success uk-margin-auto-left">Sunday Day Three</span>
+                                <h3 class="uk-card-title uk-text-success w3-large"><time datetime="2023-09-10">Sept 10th</time></h3>
+                                <span class="uk-label uk-label-success uk-margin-auto-left w3-large">Sunday Day Three</span>
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <p class="uk-text-success">7-8am        - Breakfast, jacuzzi, coffee on deck (particpants choice)</p>
-                            <p class="uk-text-success">8-9am        - Group on important supplements, the latest research on Ketamine and psychedelics and an overview of how medications can sometimes help</p>
-                            <p class="uk-text-success">930am        - Pack</p>
-                            <p class="uk-text-success">1030am       - Departure</p>
-                            <p class="uk-text-success">Note         - People may choose to go for a hike together after leaving. There are many beautiful hikes very close by</p>
+                            <p class="uk-text-success w3-large">7-8am        - Breakfast, jacuzzi, coffee on deck (particpants choice)</p>
+                            <p class="uk-text-success w3-large">8-9am        - Group on important supplements, the latest research on Ketamine and psychedelics and an overview of how medications can sometimes help</p>
+                            <p class="uk-text-success w3-large">930am        - Pack</p>
+                            <p class="uk-text-success w3-large">1030am       - Departure</p>
+                            <p class="uk-text-success w3-large">Note         - People may choose to go for a hike together after leaving. There are many beautiful hikes very close by</p>
                         </div>
                     </div>
                 </div>
