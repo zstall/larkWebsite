@@ -28,7 +28,6 @@ p {
   font-family: "Playfair Display";
   letter-spacing: 2px;
 }
-
 </style>
 </head>
 <body>
@@ -37,7 +36,7 @@ p {
 <div id="nav-placeholder"></div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide lark-header" style="max-width:1600px; min-width:200px; text-align: center; margin-top:100px;" id="home">
+<header class="w3-display-container w3-content w3-wide lark-header" style="max-width:1600px; min-width:200px; text-align: center; margin-top:0px;" id="home">
   <img class="w3-image w3-opacity-min" src="/media/Home_page_main_1.jpeg" alt="Lark Mental Health Mountain Scene" height="100%">
   <div class="w3-display-middle w3-padding-large ">
     <h1 class="" style="color:white; text-shadow: 2px 2px 0px #646464; text-align: center; margin-top: 15px; font-size: 6vw;"><strong>Women's Mental Health Retreat</strong></h1>
@@ -130,5 +129,9 @@ p {
       $("#message-placeholder").load("pages/message.html");
       $("#foot-placeholder").load("pages/foot.html");
     });
-  </script>
+
+    var iframe = document.getElementById("myiframe");
+    iframe.width = iframe.contentWindow.document.body.scrollWidth;
+    iframe.height = iframe.contentWindow.document.body.scrollHeight;
+ </script>
 </html>
